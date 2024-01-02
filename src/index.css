@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Keania+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap");
+
+:root {
+    --yellow: #faba5b;
+    --green: #06462f;
+    --green-light: #7eafa7;
+    --white: #e4e2e2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: var(--green);
+    background-color: var(--green-light);
+}
+
+.top-bar {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--yellow);
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    font-family: "Keania One", sans-serif;
+    text-align: center;
+}
+
+main {
+    margin-top: 100px;
+    padding: 30px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    overflow: scroll;
+    height: calc(100vh - 130px);
+    
+}
+
+.sectors {
+    background-color: bisquee;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10px;
+}
+
+.sector {
+    width: 40vw;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 10px;
+
+}
+
+.sector .img {
+    width: 100%;
+    background-color: var(--yellow);
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: var(--green);
+    font-weight: bold;
+}
