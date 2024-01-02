@@ -38,13 +38,9 @@ main {
     margin-top: 100px;
     padding: 30px;
     font-family: "Baloo Bhai 2", sans-serif;
-    overflow: scroll;
-    height: calc(100vh - 130px);
-    
 }
 
 .sectors {
-    background-color: bisquee;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -57,7 +53,6 @@ main {
     background-color: var(--green);
     color: var(--white);
     padding: 10px;
-
 }
 
 .sector .img {

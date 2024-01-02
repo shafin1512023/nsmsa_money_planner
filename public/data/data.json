@@ -1,0 +1,80 @@
+{
+    "total": 20000,
+    "remaining": 20000,
+    "spent": 0,
+    "totalSector": 17,
+    "sectors": [
+        {
+            "name": "Amzad",
+            "amount": "800"
+        },
+        {
+            "name": "Shahana",
+            "amount": "700"
+        },
+        {
+            "name": "Sakib",
+            "amount": "1000"
+        },
+        {
+            "name": "Medha",
+            "amount": "800"
+        },
+        {
+            "name": "Dhara",
+            "amount": "429"
+        },
+        {
+            "name": "Kotha",
+            "amount": "300"
+        },
+        {
+            "name": "Arushi",
+            "amount": "300"
+        },
+        {
+            "name": "Anika",
+            "amount": "429"
+        },
+        {
+            "name": "Amzad",
+            "amount": "800"
+        },
+        {
+            "name": "Khalamoni",
+            "amount": "600"
+        },
+        {
+            "name": "Sabbir",
+            "amount": "498"
+        },
+        {
+            "name": "Dadi",
+            "amount": "800"
+        },
+        {
+            "name": "Sefa",
+            "amount": "429"
+        },
+        {
+            "name": "Toha",
+            "amount": "429"
+        },
+        {
+            "name": "Tuba",
+            "amount": "429"
+        },
+        {
+            "name": "Rubel Uncle",
+            "amount": "498"
+        },
+        {
+            "name": "Amirul Uncle",
+            "amount": "498"
+        },
+        {
+            "name": "Badol Uncle",
+            "amount": "498"
+        }
+    ]
+}
