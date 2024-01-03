@@ -25,6 +25,7 @@ function Sectors() {
                         name={sector.name}
                         amount={sector.amount}
                         product={sector.productCategory}
+                        link={sector.productLinks}
                     />
                 ))}
         </div>

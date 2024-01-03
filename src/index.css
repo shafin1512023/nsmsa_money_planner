@@ -27,6 +27,7 @@ body {
     border-radius: 0 0 20px 20px;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .logo {
@@ -88,4 +89,17 @@ main {
     text-align: center;
     color: var(--green);
     font-weight: bold;
+    position: relative;
+    line-height: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.sector .img p {
+    font-size: 10px;
+    position: absolute;
+    bottom: 10px;
+    line-height: 10px;
 }
