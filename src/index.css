@@ -40,6 +40,28 @@ main {
     font-family: "Baloo Bhai 2", sans-serif;
 }
 
+.summary {
+    width: 100%;
+    height: 150px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.summary h1 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.summary h3 {
+    font-size: 20px;
+}
+
 .sectors {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

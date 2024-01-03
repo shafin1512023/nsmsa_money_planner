@@ -10,22 +10,41 @@ async function fetchData() {
 
 const App = () => {
     const [jsonData, setJsonData] = useState(null);
+    const [spent, setSpent] = useState(0);
+    const [remaining, setRemaining] = useState(0);
 
     useEffect(() => {
-        fetchData().then(setJsonData);
+        fetchData().then((value) => {
+            let totalMoney = value.total;
+            let totalSpent = 0;
+            setJsonData(value);
+            setSpent(value.sectors[0].amount);
+            value.sectors.forEach((element) => {
+                totalSpent = totalSpent + parseInt(element.amount);
+                return totalSpent;
+            });
+            setSpent(totalSpent);
+            setRemaining(totalMoney - totalSpent);
+        });
     }, []);
 
     return (
         <>
             <TopBar />
             <main>
+                <div className="summary">
+                    {/* {jsonData &&
+                        jsonData.sectors.forEach((element) => {
+                            console.log(element.name);
+                        })} */}
+                    <h1>Total - {jsonData && jsonData.total} BDT</h1>
+                    <h3>Spent - {spent} BDT</h3>
+                    <h3>Remaining - {remaining} BDT</h3>
+                </div>
                 <div className="sectors">
                     {jsonData &&
-                        jsonData.sectors.map((element) => (
-                            <Sector
-                                name={element.name}
-                                amount={element.amount}
-                            />
+                        jsonData.sectors.map((sector) => (
+                            <Sector name={sector.name} amount={sector.amount} />
                         ))}
                 </div>
             </main>
