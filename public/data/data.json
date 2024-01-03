@@ -3,74 +3,231 @@
     "remaining": 20000,
     "spent": 0,
     "totalSector": 17,
+    "charity": 5000,
     "sectors": [
         {
+            "id": 1,
             "name": "Amzad",
-            "amount": "800"
+            "amount": "700",
+            "productCategory": [
+                "Panjabi"
+            ],
+            "productsName": [
+                "Printed Cotton panjabi for men"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/-i324099482-s1632812143.html?spm=a2a0e.searchlist.sku.37.f2e97423SjSkz4&search=1"
+            ]
         },
         {
+            "id": 2,
             "name": "Shahana",
-            "amount": "1700"
+            "amount": "1620",
+            "productCategory": [
+                "TV Card"
+            ],
+            "productsName": [
+                "Mxq Pro 8K 5G Wifi Android Smart Tv Box-Now 8Gb Ram 128Gb Rom - Android 12 - Transform Tv Into Smart Hub With Powerful Mxq Pro 8K Android Smart Tv Box"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/mxq-pro-8k-5g-wifi-android-smart-tv-box-now-8gb-ram-128gb-rom-android-12-transform-tv-into-smart-hub-with-powerful-mxq-pro-8k-android-smart-tv-box-i252624168-s1198030894.html?spm=a2a0e.searchlist.sku.15.6aa74e6933L8Oj&search=1"
+            ]
         },
         {
+            "id": 3,
             "name": "Sakib",
-            "amount": "1000"
+            "amount": "990",
+            "productCategory": [
+                "Panjabi"
+            ],
+            "productsName": [
+                "Menext Men's Elite Collection Semi Long Panjabi For Men"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/menext-mens-elite-collection-semi-long-panjabi-for-men-snap-button-i325571798-s1564242953.html?spm=a2a0e.searchlist.sku.77.f2e97423KubQYq&search=1"
+            ]
+            
         },
         {
+            "id": 4,
             "name": "Medha",
-            "amount": "800"
+            "amount": "800",
+            "productsName": [
+                "Carat Bridal Wedding Prom Jewelry Shiny Rhinestone Elegant Necklace Earring Set Gift"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/carat-bridal-wedding-prom-jewelry-shiny-rhinestone-elegant-necklace-earring-set-gift-i221104593-s1168094863.html?spm=a2a0e.searchlist.sku.45.39c01571MnV5NP&search=1"
+            ]
         },
         {
+            "id": 5,
             "name": "Dhara",
-            "amount": "429"
+            "amount": "444",
+            "productCategory": [
+                "Gift Box - Watch, Necklace, Earring Set"
+            ],
+            "productsName": [
+                "Oona Mall New 5pcs Set Watches Women Leather Band Ladies Watch Simple Casual Women's Analog WristWatch Bracelet Gift Montre Femme(No Box)"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/oona-5-i318998600-s1459892741.html?spm=a2a0e.searchlist.sku.28.79435decNdaO1L&search=1"
+            ]
         },
         {
+            "id": 6,
             "name": "Kotha",
-            "amount": "300"
+            "amount": "300",
+            "productCategory": [
+                "Drawing Tablet"
+            ]
         },
         {
+            "id": 7,
             "name": "Arushi",
-            "amount": "300"
+            "amount": "300",
+            "productCategory": [
+                "Drawing Tablet"
+            ]
         },
         {
+            "id": 8,
             "name": "Anika",
-            "amount": "429"
+            "amount": "444",
+            "productCategory": [
+                "Gift Box - Watch, Necklace, Earring Set"
+            ],
+            "productsName": [
+                "Oona Mall New 5pcs Set Watches Women Leather Band Ladies Watch Simple Casual Women's Analog WristWatch Bracelet Gift Montre Femme(No Box)"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/oona-5-i318998600-s1459892741.html?spm=a2a0e.searchlist.sku.28.79435decNdaO1L&search=1"
+            ]
         },
         {
+            "id": 9,
             "name": "Khalamoni",
-            "amount": "600"
+            "amount": "599",
+            "productCategory": [
+                "Jainamaz"
+            ],
+            "productsName": [
+                "European and American fashionable Stailnless Steel Men's Quartz Watch For men"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/1-i238939643-s1182589040.html?spm=a2a0e.searchlist.sku.1.55561454nDxJ8H&search=1"
+            ]
         },
         {
+            "id": 10,
             "name": "Sabbir",
-            "amount": "498"
+            "amount": "498",
+            "productCategory": [
+                "Watch"
+            ],
+            "productsName": [
+                "High Quality China Soft Prayer Jaynamaz Mat Jainamaz Multicolor - 1PC"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/european-and-american-fashionable-stailnless-steel-mens-quartz-watch-for-men-i324632813-s1554203632.html?spm=a2a0e.searchlist.sku.35.a0734da4w6Bbrd&search=1"
+            ]
         },
         {
+            "id": 11,
             "name": "Dadi",
-            "amount": "600"
+            "amount": "599",
+            "productCategory": [
+                "Jainamaz"
+            ],
+            "productsName": [
+                "High Quality China Soft Prayer Jaynamaz Mat Jainamaz Multicolor - 1PC"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/1-i238939643-s1182589040.html?spm=a2a0e.searchlist.sku.1.55561454nDxJ8H&search=1"
+            ]
         },
         {
+            "id": 12,
             "name": "Sefa",
-            "amount": "429"
+            "amount": "444",
+            "productCategory": [
+                "Gift Box - Watch, Necklace, Earring Set"
+            ],
+            "productsName": [
+                "Oona Mall New 5pcs Set Watches Women Leather Band Ladies Watch Simple Casual Women's Analog WristWatch Bracelet Gift Montre Femme(No Box)"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/oona-5-i318998600-s1459892741.html?spm=a2a0e.searchlist.sku.28.79435decNdaO1L&search=1"
+            ]
         },
         {
+            "id": 13,
             "name": "Toha",
-            "amount": "429"
+            "amount": "444",
+            "productCategory": [
+                "Gift Box - Watch, Necklace, Earring Set"
+            ],
+            "productsName": [
+                "Oona Mall New 5pcs Set Watches Women Leather Band Ladies Watch Simple Casual Women's Analog WristWatch Bracelet Gift Montre Femme(No Box)"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/oona-5-i318998600-s1459892741.html?spm=a2a0e.searchlist.sku.28.79435decNdaO1L&search=1"
+            ]
         },
         {
+            "id": 14,
             "name": "Tuba",
-            "amount": "429"
+            "amount": "444",
+            "productCategory": [
+                "Gift Box - Watch, Necklace, Earring Set"
+            ],
+            "productsName": [
+                "Oona Mall New 5pcs Set Watches Women Leather Band Ladies Watch Simple Casual Women's Analog WristWatch Bracelet Gift Montre Femme(No Box)"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/oona-5-i318998600-s1459892741.html?spm=a2a0e.searchlist.sku.28.79435decNdaO1L&search=1"
+            ]
         },
         {
+            "id": 15,
             "name": "Rubel Uncle",
-            "amount": "498"
+            "amount": "498",
+            "productCategory": [
+                "Watch"
+            ],
+            "productsName": [
+                "European and American fashionable Stailnless Steel Men's Quartz Watch For men"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/european-and-american-fashionable-stailnless-steel-mens-quartz-watch-for-men-i324632813-s1554203632.html?spm=a2a0e.searchlist.sku.35.a0734da4w6Bbrd&search=1"
+            ]
         },
         {
+            "id": 16,
             "name": "Amirul Uncle",
-            "amount": "498"
+            "amount": "498",
+            "productCategory": [
+                "Watch"
+            ],
+            "productsName": [
+                "European and American fashionable Stailnless Steel Men's Quartz Watch For men"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/european-and-american-fashionable-stailnless-steel-mens-quartz-watch-for-men-i324632813-s1554203632.html?spm=a2a0e.searchlist.sku.35.a0734da4w6Bbrd&search=1"
+            ]
         },
         {
+            "id": 17,
             "name": "Badol Uncle",
-            "amount": "498"
+            "amount": "498",
+            "productCategory": [
+                "Watch"
+            ],
+            "productsName": [
+                "European and American fashionable Stailnless Steel Men's Quartz Watch For men"
+            ],
+            "productLinks": [
+                "https://www.daraz.com.bd/products/european-and-american-fashionable-stailnless-steel-mens-quartz-watch-for-men-i324632813-s1554203632.html?spm=a2a0e.searchlist.sku.35.a0734da4w6Bbrd&search=1"
+            ]
         }
     ]
 }

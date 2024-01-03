@@ -1,9 +1,7 @@
-function Sector({name, amount}) {
+function Sector({ name, amount, product }) {
     return (
         <div className="sector">
-            <div className="img">
-                এখানে ছবি লাগাবো পরে প্রোডাক্টের
-            </div>
+            <div className="img">{product}</div>
             <h2>{name}</h2>
             <h3>{amount} BDT</h3>
         </div>
